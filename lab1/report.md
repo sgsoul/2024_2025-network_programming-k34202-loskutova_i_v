@@ -63,7 +63,7 @@ sudo apt install wireguard iptables
 
 ```bash
 umask 077
-sgsoul@net-prog:~$ wg genkey | tee private.key | wg pubkey > public.key
+wg genkey | tee private.key | wg pubkey > public.key
 sudo mv private.key /etc/wireguard/private.key
 sudo mv public.key /etc/wireguard/public.key
 ```
@@ -107,16 +107,21 @@ sudo systemctl status wg-quick@wg0
 
 ![alt text](img/020239.png) 
 
+Финальные настройки будут следующими:
+
+![alt text](https://github.com/user-attachments/assets/309e15cd-46bb-46ca-bf52-056500b04566)
 
 ### Результаты лабораторной работы
 
 Проверим доступ клиента с сервера.
 
-![alt text](img/015017.png) 
+![image](https://github.com/user-attachments/assets/1c56399d-62da-4259-8d80-031f36ac87bc)
+
 
 И доступ сервера и интернета с клиента.
 
-![alt text](img/014947.png)
+![image](https://github.com/user-attachments/assets/a029980a-2688-4a5e-b997-7c57a95ce8bb)
+
 
 ![alt text](img/image-10.png)
 
