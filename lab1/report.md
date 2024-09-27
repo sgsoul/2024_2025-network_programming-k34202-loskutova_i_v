@@ -6,7 +6,7 @@ Group: K34202
 Author: Loskutova Irina  
 Lab: Lab1  
 Date of create: 20.09.2024  
-Date of finished: 23.09.2024 
+Date of finished: 27.09.2024 
 
 ## Лабораторная работа №1 "Установка CHR и Ansible, настройка VPN"
 
