@@ -195,6 +195,9 @@ sgsoul@cloud-systems-and-services:~/net-prog$
 
 #### Напишем плейбук, позволяющий собрать серийный номер устройства и вносящий серийный номер в Netbox
 
+<details>
+<summary>Напишем плейбук для настройки серийного номера.</summary>
+  
 ```bash
 sgsoul@cloud-systems-and-services:~/net-prog$ cat serial_num.yml
 ---
