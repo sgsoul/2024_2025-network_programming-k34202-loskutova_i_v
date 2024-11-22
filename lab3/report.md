@@ -6,7 +6,7 @@ Group: K34202
 Author: Loskutova Irina  
 Lab: Lab1  
 Date of create: 11.11.2024  
-Date of finished: 
+Date of finished: 12.11.2024
 
 ## Лабораторная работа №3 "Развертывание Netbox, сеть связи как источник правды в системе технического учета Netbox"
 
